@@ -15,3 +15,18 @@ java -v
 ```bash
 git clone https://github.com/Kuon-dev/assignment-edpa-org.git -b template
 ```
+
+3. Remove origin
+```bash
+git remote remove origin
+```
+
+4. Add your new origin
+```bash
+git remote origin add <your-github-repo-url>
+```
+
+5. start app
+```bash
+./gradlew bootRun
+```
