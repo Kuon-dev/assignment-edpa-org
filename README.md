@@ -26,7 +26,17 @@ git remote remove origin
 git remote origin add <your-github-repo-url>
 ```
 
-5. start app
+5. Create a new file called `.env` file located at `./src/main/resources/`. So it should be located at `./src/main/resources/.env`. Put the values
+of examples based on `.env.example`
+
+6. Start app. This will be your daily workflow. 
 ```bash
 ./gradlew bootRun
+```
+
+## Extra note:
+`Note: ` Ensure your db server (postgres, mysql etc) is running.
+Adding new dependencies requires a new build
+```bash
+./gradlew clean build --refresh-depedencies
 ```
