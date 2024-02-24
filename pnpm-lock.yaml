@@ -8,6 +8,9 @@ dependencies:
   '@unpic/react':
     specifier: ^0.1.8
     version: 0.1.8(react-dom@18.2.0)(react@18.2.0)
+  husky:
+    specifier: ^9.0.11
+    version: 9.0.11
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
@@ -45,6 +48,12 @@ packages:
     dependencies:
       regexp-to-ast: 0.4.0
     dev: true
+
+  /husky@9.0.11:
+    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dev: false
 
   /java-parser@2.2.0:
     resolution: {integrity: sha512-20/Rpuv4FnzTNgWkJBqs2M4qwBuPLMqOqNiwU5j7vKvrw4Ej+re8Aoc92KbDFb61M1u/Sd4Ygst+CpEcKXvhBQ==}
