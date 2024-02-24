@@ -29,7 +29,9 @@ git remote origin add <your-github-repo-url>
 5. Create a new file called `.env` file located at `./src/main/resources/`. So it should be located at `./src/main/resources/.env`. Put the values
 of examples based on `.env.example`
 
-6. Start app. This will be your daily workflow. 
+6. Run `pnpm i`
+
+7. Start app. This will be your daily workflow. 
 ```bash
 ./gradlew bootRun
 ```
